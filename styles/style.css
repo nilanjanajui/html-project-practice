@@ -10,11 +10,16 @@
 }
 
 header {
-    background-color: #f8f9fa;
+    background-color: #74a0cd;
     text-align: right;
     padding: 216px 230px 364px 845px;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-header h1 {
+.heading h1 {
     font-size: 65px;
     color: #151414;
+    width: 525px;
+
 }
