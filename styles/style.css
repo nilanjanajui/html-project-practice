@@ -135,7 +135,7 @@ header {
 .plan-section .plan-cards {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 110px;
     margin-top: 60px;
 }
 
