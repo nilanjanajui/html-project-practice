@@ -206,7 +206,7 @@ header {
     margin-bottom: 24px;
 }
 
-.positive button {
+.white-btn {
     background-color: #ffffff;
     color: #f15b22;
     border: none;
@@ -224,13 +224,93 @@ header {
         background-color 0.25s ease;
 }
 
-.positive button:hover {
+    .white-btn:hover {
     background-color: #fff5f0;  /* very subtle tint */
     transform: translateY(-4px) scale(1.03);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
 }
 
-.positive button:active {
+.white-btn:active {
     transform: translateY(-1px) scale(0.98);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+footer {
+    background: #0a0a0a;
+    color: white;
+    padding: 130px 230px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 330px;
+    justify-content: center;
+
+}
+
+.future {
+    width: 485px;
+}
+
+.future h3 {
+    font-size: 40px;
+}
+
+.future .description {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0;
+}
+
+.future .email,
+.future .phone {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.image {
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    padding: 6px;
+}
+
+.subscribe {
+    border-radius: 8px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.subscribe input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #d7d1d1;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+.subscribe input::placeholder {
+    color: #777;
+}
+
+.subscribe .white-btn {
+    padding: 20px 36px;
+    width: 170px;
 }
