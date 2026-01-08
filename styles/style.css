@@ -48,51 +48,56 @@ header {
 }
 .main-content {
     display: flex;
-    align-items: center;   /* vertically align image & card */
+    align-items: center;
+    justify-content: center;
     gap: 95px;
-    padding: 0 230px;
-    margin-top: 130px;
+    margin-top: 230px;
+    padding: 0 80px;
 }
+
 
 /* IMAGE */
 
 /* Circular background */
 .image-wrapper {
-    background-color: #ffe3dc; 
-    border-radius: 50%;       
+    width: 520px;
+    height: 520px;
+    background-color: #ffe3dc;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 5px;       
-    width: max-content;
-    height: max-content;
-    margin-left: 206px;
+    align-items: flex-end;
+    position: relative;
 }
 
-/* Keep image at original size */
+
 .image-wrapper img {
-    display: block;
-    width: auto;    /* do not stretch */
-    height: auto;
+    height: auto;   /* taller than the circle */
+    width: auto;
+    position: relative;
+    bottom: -10px;   /* pushes image down slightly */
 }
 
 
 /* CARD */
 .card {
-    max-width: 500px;
+    max-width: 520px;
     margin-left: 10px;
+
 }
 
 .card .sub-heading h2 {
+    width: 290px;
     font-size: 40px;
-    margin-bottom: 16px;
-    width: 288px;
+    line-height: 1.2;
 }
+
 
 .card .text-content p {
     line-height: 26px;
     color: #444343;
-    margin-top: 24px;
+    margin: 24px 0 16px;
+
     width: 416px;
 }
 
