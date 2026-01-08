@@ -51,7 +51,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 95px;
-    margin-top: 230px;
+    margin-top: 260px;
     padding: 0 80px;
 }
 
@@ -60,8 +60,8 @@ header {
 
 /* Circular background */
 .image-wrapper {
-    width: 520px;
-    height: 520px;
+    width: 522px;
+    height: 522px;
     background-color: #ffe3dc;
     border-radius: 50%;
     display: flex;
@@ -75,7 +75,7 @@ header {
     height: auto;   /* taller than the circle */
     width: auto;
     position: relative;
-    bottom: -10px;   /* pushes image down slightly */
+    bottom: -2px;   /* pushes image down slightly */
 }
 
 
@@ -121,5 +121,32 @@ header {
     left: 0;
     color: #16D887;
     font-weight: bold;
+}
+
+.plan-section {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.plan-section h3 {
+    font-size: 40px;
+}
+
+.plan-section .plan-cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+}
+
+.plan-section .plan-cards h4 {
+    font-size: 28px;
+    margin: 24px 0 16px;
+}
+
+.plan-section .plan-cards p {
+    font-size: 25px;
+    color: #737272;
+    font-weight: 500;
 }
 
